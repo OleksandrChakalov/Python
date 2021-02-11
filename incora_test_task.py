@@ -1,5 +1,6 @@
 import random
 
+
 class User:
     def __init__(self, name, money):
         pass
@@ -8,12 +9,9 @@ class User:
 class SuperAdmin(User):
     def __init__(self, name, money):
         self.name = name
-        
-
 
     def NewCasino():
         pass
-
 
 
 class Casino:
@@ -27,44 +25,30 @@ class Casino:
         pass
 
 
-
 class GameMachine:
     def __init__(self, number):
         self.number = number
 
     def getMoney():
         pass
-    
+
     def takeMoney(number):
         pass
 
-    def unique(list1):     
-        unique_list = []
-        for x in list1:
-        
-            if x not in unique_list:
-                unique_list.append(x)
-   
+
 
     def play(number):
         x = random.randint(100, 999)
+        y = list(set(str(x)))
+        if len(y) == 3:
+            print(1)
+        elif len(y) == 2:
+            print(2)
+        else:
+            print(3)
 
-        y = list(str(x))
-        print(y)
 
-        
-# def unique(y): 
-#     unique_list = []
-#     for x in y:                
-#         if x not in unique_list:
-#             unique_list.append(x)
-#     # for x in unique_list:
-#     #     print(x)
-#     if unique_list 
-    
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
-# x = random.randint(100, 999)
-# y = list(str(x))
-# unique(y)
-# print(y)
+
+
+
